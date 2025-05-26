@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pentagame</title>
+    <link rel="stylesheet" href="../_css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pentagame</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="generos.html">Géneros</a></li>
+                <li><a href="plataformas.html">Plataformas</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article class="contacto-contenido">
+            <header>
+                <h2>Contacto</h2>
+                <p class="introduccion">¿Tienes alguna pregunta, sugerencia o comentario? ¡Nos encantaría saber de ti! Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+            </header>
+            
+            <section class="formulario-contacto">
+                <h3>Formulario de Contacto</h3>
+                <form action="#" method="post" class="contacto-form">
+                    <div class="campo-formulario">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="campo-formulario">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="campo-formulario">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+                    
+                    <div class="campo-formulario">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                    </div>
+                    
+                    <div class="campo-formulario">
+                        <label for="plataforma">Plataforma favorita:</label>
+                        <select id="plataforma" name="plataforma">
+                            <option value="">Selecciona una opción</option>
+                            <option value="pc">PC</option>
+                            <option value="playstation">PlayStation</option>
+                            <option value="xbox">Xbox</option>
+                            <option value="nintendo">Nintendo</option>
+                            <option value="movil">Dispositivos móviles</option>
+                            <option value="otra">Otra</option>
+                        </select>
+                    </div>
+                    
+                    <div class="campo-formulario">
+                        <label>
+                            <input type="checkbox" name="newsletter" value="si">
+                            Quiero recibir noticias y actualizaciones por correo electrónico
+                        </label>
+                    </div>
+                    
+                    <div class="botones-formulario">
+                        <button type="submit" class="boton-enviar">Enviar mensaje</button>
+                        <button type="reset" class="boton-reset">Limpiar formulario</button>
+                    </div>
+                </form>
+            </section>
+            
+            <section class="informacion-contacto">
+                <h3>Información de Contacto</h3>
+                <div class="contacto-grid">
+                    <div class="contacto-card">
+                        <h4>Dirección</h4>
+                        <p>Calle Gamer 123, Ciudad Virtual</p>
+                        <p>Código Postal: 28001</p>
+                    </div>
+                    
+                    <div class="contacto-card">
+                        <h4>Teléfono</h4>
+                        <p>+34 123 456 789</p>
+                        <p>Lunes a Viernes: 9:00 - 18:00</p>
+                    </div>
+                    
+                    <div class="contacto-card">
+                        <h4>Correo Electrónico</h4>
+                        <p>info@pentagame.com</p>
+                        <p>soporte@pentagame.com</p>
+                    </div>
+                    
+                    <div class="contacto-card">
+                        <h4>Redes Sociales</h4>
+                        <p>Twitter: @PentagameOficial</p>
+                        <p>Instagram: @Pentagame</p>
+                        <p>YouTube: Pentagame Channel</p>
+                    </div>
+                </div>
+            </section>
+            
+          
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Pentagame - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
